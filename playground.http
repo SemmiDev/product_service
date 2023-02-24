@@ -1,0 +1,24 @@
+POST http://localhost:3030/products
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "DELL Latitude 5480",
+    "description": "Laptop DELL Latitude 5480 Core i5 7200U 8GB 256GB SSD 14.0 FHD Win10 Pro",
+    "category": "Laptops",
+    "price": 12000000,
+    "quantity": 100
+}
+
+### GET PRODUCTS
+GET http://localhost:3030/products/d6c84ca8-0a38-4bac-8bee-cffe2ad8f5f0
+Accept: application/json
+
+
+### SEARCH PRODUCTS
+GET http://localhost:3030/products/search?term=7200U
+Accept: application/json
+
+### LIST PRODUCTS
+GET http://localhost:3030/products
+Accept: application/json
