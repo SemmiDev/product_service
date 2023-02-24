@@ -7,3 +7,17 @@
 query needs
 
 ![cqrs](cqrs-with-messaging.png)
+
+## How to use
+
+- Run the docker-compose
+
+```bash
+make up-compose
+```
+
+- Run the server
+
+```bash
+make run
+```
